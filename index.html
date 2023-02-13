@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <!--Font Awsome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <title>Restaurant Ordering App</title>
+</head>
+<body>
+    <header>
+        <img class="header-img" src="images/header.png" alt="burger image" />
+      </header>
+      <main>
+        <div class="container" id="container"></div>
+        <div class="ordered-items" id="ordered-items"></div>
+        <div class="card" id="card">
+          <h3 class="card-details">Enter card details</h3>
+          <button class="close-btn" id="close-btn">X</button>
+          <form id="payment-form">
+            <input
+              type="text"
+              name="clientName"
+              placeholder="Enter your name"
+              aria-label="clientName"
+              required
+            />
+  
+            <input
+              type="text"
+              name="cardNumber"
+              placeholder="Enter card number"
+              aria-label="Card number"
+              required
+            />
+  
+            <input
+              type="text"
+              name="clientCvv"
+              placeholder="Enter CVV"
+              aria-label="CVV number"
+              required
+            />
+            <button type="submit" class="payment-btn" id="payment-btn">
+              Pay
+            </button>
+          </form>
+        </div>
+      </main>
+      <script src="index.js" type="module"></script>
+</body>
+</html>
