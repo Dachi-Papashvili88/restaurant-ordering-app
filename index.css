@@ -300,3 +300,101 @@
     margin-top: 50px;
     padding: 30px 10px;
   }
+
+
+  
+@media (max-width: 420px) {
+    main,
+    .container,
+    .ordered-items {
+      width: 400px;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .header-img {
+      width: 400px;
+      height: 120px;
+    }
+    .complete {
+      width: 320px;
+      margin-left: 40px;
+    }
+    hr,
+    .food,
+    .waiting-order,
+    .saving-info {
+      width: 320px;
+      margin-left: 40px;
+    }
+  
+    hr {
+      border: 1px solid #393333;
+    }
+  
+    .food {
+      border-bottom: 0.7px solid #9b9b9b;
+    }
+    .food-emoji {
+      font-size: 60px;
+    }
+    .food-title,
+    .your-order,
+    .order-name,
+    .total-amount {
+      font-size: 25px;
+    }
+    p {
+      font-size: 13px;
+    }
+  
+    .price,
+    .order-price,
+    #total-usd {
+      font-size: 19px;
+    }
+  
+    .order-paragraph {
+      font-size: 13px;
+    }
+  
+    .fa-solid {
+      font-size: 37px;
+      margin-left: 203px;
+      margin-top: -18px;
+      left: 120px;
+    }
+  
+    .card {
+      width: 360px;
+    }
+  
+    .card-details {
+      font-size: 21px;
+      margin-left: 95px;
+      margin-top: 10px;
+    }
+  
+    input,
+    .payment-btn {
+      width: 315px;
+      height: 65px;
+      margin-left: 24px;
+    }
+  
+    .waiting-order {
+      width: 370px;
+      margin-left: 24px;
+    }
+    input[type="text"] {
+      font-size: 17px;
+    }
+  
+    .close-btn {
+      font-size: 27px;
+      border: 1px solid transparent;
+      top: 10;
+      right: 10px;
+    }
+  }
+  
